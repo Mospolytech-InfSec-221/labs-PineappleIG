@@ -45,4 +45,24 @@ public:
     void phase8() {};
     void defense_level(const char* enemy_name, int king_help) {};
 
+    enum Buildings 
+    {
+        Statue,
+        Chapel,
+        Church,
+        Cathedral,
+        Tavern,
+        Market,
+        Farm,
+        TradeGuild,
+        Barracks,
+        Palisade,
+        Stable, 
+        StoneWall,
+        Fortress,
+        Stockade, 
+        Tower,
+        TownHall,
+        Embassy
+    };
 };
