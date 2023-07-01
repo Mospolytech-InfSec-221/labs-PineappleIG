@@ -1,0 +1,5 @@
+1. Собираем образ докера:
+    docker build --tag "gornostaev" .
+
+2. Запускаем собранный образ докера:
+    docker run -p 33333:33333 gornostaev
